@@ -1,0 +1,15 @@
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.article {
+  width: calc(33.33% - 5px); /* 3 items in a row with no horizontal spacing */
+  margin: 5px 0; /* Adjust the top and bottom margins as needed */
+}
+
+.article img {
+  width: 250px; /* Set the fixed width of 250px for the images */
+  height: auto;
+}
